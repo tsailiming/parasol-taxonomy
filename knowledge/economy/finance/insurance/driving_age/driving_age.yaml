@@ -11,7 +11,7 @@ seed_examples:
       Teenage drivers in New Hampshire are allowed to practice driving beginning at age 15 years and 6 months.
   - question: When can teen drivers get a Youth Operator License?
     answer: |
-      Beginning at age 16, teen drivers may apply for a Youth Operatore license in New Hampshire.
+      Beginning at age 16, teen drivers may apply for a Youth Operator license in New Hampshire, assuming the teen has taken an approved driver education course.
   - question: When does the youth operator license expire?
     answer: |
       It expires on the individuals 21st birthday.
