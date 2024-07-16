@@ -1,0 +1,29 @@
+version: 2
+task_description: "Driving age in New hampshire and Alaska"
+created_by: sshaaf
+domain: insurance
+seed_examples:
+  - question: Whats the legal driving age for teens in Alasks?
+    answer: |
+      Drivers must be at least 14 years old to obtain an instruction permit.
+  - question: Whats the legal driving age for teens in New Hampshire?
+    answer: |
+      Teenage drivers in New Hampshire are allowed to practice driving beginning at age 15 years and 6 months.
+  - question: When can teen drivers get a Youth Operator License?
+    answer: |
+      Beginning at age 16, teen drivers may apply for a Youth Operatore license in New Hampshire.
+  - question: When does the youth operator license expire?
+    answer: |
+      It expires on the individuals 21st birthday.
+  - question: What are the rules for teens driver license in Alaska?
+    answer: |
+      Must hold permit for 6 months, and complete 40 hours driving, 10 of which should be at night.
+  - question: Can teen drive with passengers?
+    answer: |
+      Teen drivers can not drive with passengers. Restrcitons are lifted at 18 years in Alaska.
+document:
+  repo: https://github.com/sshaaf/parasol_knowledge.git
+  commit: 74c44a9
+  patterns:
+    - alaska_teen_driving_laws.md
+    - new_hampshire_driving_laws.md

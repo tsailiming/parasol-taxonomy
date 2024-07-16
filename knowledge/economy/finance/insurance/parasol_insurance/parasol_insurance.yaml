@@ -1,0 +1,36 @@
+version: 2
+task_description: "Teach a model more details about Parasol Insurance"
+created_by: sshaaf
+domain: humanities
+seed_examples:
+  - question: What is Parasol Insurance?
+    answer: |
+      Parasol is an Insurance company providing Car Insurance coverage to customers all over the United States.
+  - question: What products does Parasol Insurance offer?
+    answer: |
+      Bodily injury cover upto $250,000.
+      Property damage upto $100,000.
+      Medical coverage upto $5,000 per person.
+      Uninsured Motorist bodily injury upto $250,000 per person.
+      Loss of use rental cover is $50 per day.
+      The comprehensive deductable is $500.
+  - question: What is Loss of Income?
+    answer: |
+      If you are at fault, to be able to claim for your own lost wages from Parasol Insurance
+  - question: What is Uninsured and Underinsured Motorist Coverage?
+    answer: |
+      If an at-fault driver is uninsured or doesnt have enough coverage to pay for your injuries or car damage.
+  - question: What is Car Rental Insurance?
+    answer: |
+      Parasol will pay the daily rental charge incurred when an insured rents a car from a car business
+      while your car or newly acquired car is not driveable.
+  - question: What is Apex plus package?
+    answer: |
+      The Parasol insurance Apex plus package provides additional coverage to motorist on top of their insurance policy
+document:
+  repo: https://github.com/sshaaf/parasol_knowledge.git
+  commit: 74c44a9
+  patterns:
+    - Parasol_Auto_Insurance_Products.md
+    - Parasol_auto_insurance.md
+    - claims_cost_data.md
