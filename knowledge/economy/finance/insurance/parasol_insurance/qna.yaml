@@ -29,7 +29,7 @@ seed_examples:
       The Parasol insurance Apex plus package provides additional coverage to motorist on top of their insurance policy
 document:
   repo: https://github.com/sshaaf/parasol_knowledge.git
-  commit: 74c44a9
+  commit: 54d9eb7cb45731bb76e187a625bca393dc89fd20
   patterns:
     - Parasol_Auto_Insurance_Products.md
     - Parasol_auto_insurance.md

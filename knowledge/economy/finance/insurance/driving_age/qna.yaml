@@ -5,10 +5,10 @@ domain: insurance
 seed_examples:
   - question: Whats the legal driving age for teens in Alasks?
     answer: |
-      Drivers must be at least 14 years old to obtain an instruction permit.
+      Drivers must be at least 14 years old to obtain an instruction permit in Alaska.
   - question: Whats the legal driving age for teens in New Hampshire?
     answer: |
-      Teenage drivers in New Hampshire are allowed to practice driving beginning at age 15 years and 6 months.
+      Teenage drivers in New Hampshire are allowed to practice driving beginning at age 16 years and 6 months.
   - question: When can teen drivers get a Youth Operator License?
     answer: |
       Beginning at age 16, teen drivers may apply for a Youth Operator license in New Hampshire,
@@ -24,7 +24,7 @@ seed_examples:
       Teen drivers can not drive with passengers. Restrcitons are lifted at 18 years in Alaska.
 document:
   repo: https://github.com/sshaaf/parasol_knowledge.git
-  commit: 74c44a9
+  commit: 54d9eb7cb45731bb76e187a625bca393dc89fd20
   patterns:
     - alaska_teen_driving_laws.md
     - new_hampshire_driving_laws.md

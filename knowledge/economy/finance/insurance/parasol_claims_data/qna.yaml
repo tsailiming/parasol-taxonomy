@@ -22,6 +22,6 @@ seed_examples:
       Yes the likely hood of reducing claims increases using systems that aid the drivers.
 document:
   repo: https://github.com/sshaaf/parasol_knowledge.git
-  commit: 74c44a9
+  commit: 54d9eb7cb45731bb76e187a625bca393dc89fd20
   patterns:
     - Insurance_claims_data.md
