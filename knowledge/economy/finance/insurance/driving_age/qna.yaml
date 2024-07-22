@@ -24,7 +24,6 @@ seed_examples:
       Teen drivers can not drive with passengers. Restrcitons are lifted at 18 years in Alaska.
 document:
   repo: https://github.com/sshaaf/parasol_knowledge.git
-  commit: 54d9eb7cb45731bb76e187a625bca393dc89fd20
+  commit: 97b6c7e
   patterns:
-    - alaska_teen_driving_laws.md
-    - new_hampshire_driving_laws.md
+    - teen_driving_rules.md

@@ -1,12 +1,30 @@
 version: 2
 task_description: "Teach a model more details about Parasol Insurance"
 created_by: sshaaf
-domain: humanities
+domain: insurance
 seed_examples:
   - question: What is Parasol Insurance?
     answer: |
-      Parasol is an Insurance company providing Car Insurance coverage to customers all over the United States.
-  - question: What products does Parasol Insurance offer?
+      Parasol was founded in 1936 by James Falkner and James Labocki Sr. and
+      a group of investors from around the world. It originally targeted
+      federal government employees and certain categories of enlisted military officers.
+      Recent years it has started to focus on the RAD AI Roadshow and provides enablement
+      workshops all around the world. Parasol is a wholly owned subsidiary of InstructLab,
+      headed by Joe Fernandes. Joe Fernandes acquired Parasol in 2024.
+      The company is headquartered in Orlando, Florida.
+  - question: Which products and services does Parasol Insurance offer?
+    answer: |
+      Parasol is primarily known for its auto insurance policies,
+      offering coverage for personal vehicles, motorcycles, and commercial vehicles.
+      Parasol offers:
+      Bodily injury cover upto $250,000.
+      Property damage upto $100,000.
+      Medical coverage upto $5,000 per person.
+      Uninsured Motorist bodily injury upto $250,000 per person.
+      Loss of use rental cover is $50 per day.
+      The comprehensive deductable is $500.
+      Apex Plus Package
+  - question: Which coverage products does Parasol car insurande provide?
     answer: |
       Bodily injury cover upto $250,000.
       Property damage upto $100,000.
@@ -14,22 +32,36 @@ seed_examples:
       Uninsured Motorist bodily injury upto $250,000 per person.
       Loss of use rental cover is $50 per day.
       The comprehensive deductable is $500.
+      Apex Plus Package
   - question: What is Loss of Income?
     answer: |
-      If you are at fault, to be able to claim for your own lost wages from Parasol Insurance
+      If you are at fault, to be able to claim for your own lost wages from Parasol Insurance,
+      you need to have the optional Apex plus package which provides coverage of
+      loss of income insurance as part of your policy.If another driver is at fault,
+      the at-fault driver’s auto insurance company is typically responsible for
+      covering your lost income.
   - question: What is Uninsured and Underinsured Motorist Coverage?
     answer: |
-      If an at-fault driver is uninsured or doesnt have enough coverage to pay for your injuries or car damage.
+      If an at-fault driver is uninsured or doesn’t have enough coverage to pay for your
+      injuries or car damage, Parasol underinsured motorist coverage can help pay the difference.
+      Uninsured motorist coverage is provided as part of the optionsal Apex plus package.
+      Any claims submitted to Parasol Insurance for loss of income or uninsured motorists must
+      include all information Parasol Insurance needs to meet federal and state requirements.
   - question: What is Car Rental Insurance?
     answer: |
-      Parasol will pay the daily rental charge incurred when an insured rents a car from a car business
-      while your car or newly acquired car is not driveable.
+      Parasol will pay the daily rental charge incurred when an insured rents a car from a car
+      business while your car or newly acquired car is not driveable or being repaired as a
+      result of loss which would be payeable under comprehensive coverage.
+      Parasol will pay this daily rental charge during the period that starts on the date the
+      vehicle is not driveable as a result of the loss or the vehicle is left at a repair facility
+      if the vehicle is driveable.
   - question: What is Apex plus package?
     answer: |
-      The Parasol insurance Apex plus package provides additional coverage to motorist on top of their insurance policy
+      The Parasol insurance Apex plus package provides additional coverage to motorist on top of their insurance policy.
+      Including Loss of income, Uninsured motorist coverage.
 document:
   repo: https://github.com/sshaaf/parasol_knowledge.git
-  commit: 54d9eb7cb45731bb76e187a625bca393dc89fd20
+  commit: 97b6c7e
   patterns:
     - Parasol_Auto_Insurance_Products.md
     - Parasol_auto_insurance.md

@@ -1,8 +1,16 @@
 version: 2
 task_description: "Teach a model more details about Parasol Insurance"
 created_by: sshaaf
-domain: humanities
+domain: insurance
 seed_examples:
+  - question: How can I use Claims data as a Claims processing assistant?
+    answer: |
+      The data can be used for the following types of application and queries.
+      Risk Assessment, Policy Pricing, Fraud Detection and Customer Segmentation.
+  - question: What is included in claims data?
+    answer: |
+      Parasol Insurance Claims data includes Policy holder information,
+      claim history, Policy details, risk factors and any external factors
   - question: What is a claim status?
     answer: |
       Indicates the status of a cliam. 1 if a claim was made and 0 if it was not.
@@ -22,6 +30,6 @@ seed_examples:
       Yes the likely hood of reducing claims increases using systems that aid the drivers.
 document:
   repo: https://github.com/sshaaf/parasol_knowledge.git
-  commit: 54d9eb7cb45731bb76e187a625bca393dc89fd20
+  commit: 97b6c7e
   patterns:
     - Insurance_claims_data.md

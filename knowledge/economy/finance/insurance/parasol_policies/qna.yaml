@@ -19,7 +19,7 @@ seed_examples:
 
 task_description: ""
 document:
-  repo: https://github.com/rh-rad-ai-roadshow/parasol_knowledge.git
-  commit: 54d9eb7cb45731bb76e187a625bca393dc89fd20
+  repo: https://github.com/sshaaf/parasol_knowledge.git
+  commit: 97b6c7e
   patterns:
     - Parasol_auto_insurance.md
