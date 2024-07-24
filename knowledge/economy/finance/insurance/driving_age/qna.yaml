@@ -3,27 +3,51 @@ task_description: "Driving age in New hampshire and Alaska"
 created_by: sshaaf
 domain: insurance
 seed_examples:
-  - question: Whats the legal driving age for teens in Alasks?
+  - question: What is the minimum age to obtain an instruction permit in Alaska?
     answer: |
-      Drivers must be at least 14 years old to obtain an instruction permit in Alaska.
-  - question: Whats the legal driving age for teens in New Hampshire?
+      In Alaska, drivers must be at least 14 years old to obtain an instruction permit.
+  - question: How many hours of supervised driving are required in Alaska before a teen can apply for a license?
     answer: |
-      Teenage drivers in New Hampshire are allowed to practice driving beginning at age 16 years and 6 months.
-  - question: When can teen drivers get a Youth Operator License?
+      Teens in Alaska must complete 40 hours of supervised driving,
+      including 10 hours at night or in inclement weather, before they can apply for a license.
+  - question: What restrictions are placed on provisional license holders under 18 in Alaska?
     answer: |
-      Beginning at age 16, teen drivers may apply for a Youth Operator license in New Hampshire,
-      assuming the teen has taken an approved driver education course.
-  - question: When does the youth operator license expire?
+      Provisional license holders under 18 in Alaska are prohibited from riding with
+      passengers under the age of 21 and from driving between 1:00 AM and 5:00 AM,
+      unless accompanied by a driver older than 21.
+  - question: At what age are driving restrictions lifted for teen drivers in Alaska?
     answer: |
-      It expires on the individuals 21st birthday.
-  - question: What are the rules for teens driver license in Alaska?
+      Driving restrictions for teen drivers in Alaska are lifted at age 18.
+  - question: What is the minimum age for a teen to practice driving in New Hampshire?
     answer: |
-      Must hold permit for 6 months, and complete 40 hours driving, 10 of which should be at night.
-  - question: Can teen drive with passengers?
+      Teen drivers in New Hampshire can begin practicing driving at age 15 ½ while
+      accompanied by a licensed adult at least 25 years of age.
+  - question: What are the requirements for obtaining a New Hampshire Youth Operator License?
     answer: |
-      Teen drivers can not drive with passengers. Restrcitons are lifted at 18 years in Alaska.
+      To obtain a New Hampshire Youth Operator License, teens must be at least 16 years old,
+      pass a state-approved driver education course, provide written permission from a parent or guardian,
+      log at least 40 hours of supervised driving practice (including 10 hours of nighttime driving),
+      and pass a vision screening, a written test, and a driver road test.
+  - question: What are the driving restrictions for Youth Operator License holders under 18 in New Hampshire?
+    answer: |
+      Youth Operator License holders under 18 in New Hampshire are prohibited
+      from driving between 1:00 AM and 4:00 AM and may not drive with more than one passenger
+      younger than age 25 who is not a family member during the first 6 months of being licensed,
+      unless accompanied by a licensed driver at least 25 years old.
+  - question: How much is the application fee for a New Hampshire Youth Operator License?
+    answer: |
+      The application fee for a New Hampshire Youth Operator License is $50.
+  - question: How is the New Hampshire Youth Operator License oriented, and what special marking does it have?
+    answer: |
+      The New Hampshire Youth Operator License is oriented vertically and states:
+      "Under 21 until [date]". It expires on the individual's 21st birthday.
+  - question: When can a New Hampshire Youth Operator License holder obtain a horizontally-oriented driver's license?
+    answer: |
+      A New Hampshire Youth Operator License holder can obtain a
+      horizontally-oriented driver's license on their 21st birthday.
+
 document:
   repo: https://github.com/sshaaf/parasol_knowledge.git
-  commit: 97b6c7e
+  commit: b87677d
   patterns:
     - teen_driving_rules.md
