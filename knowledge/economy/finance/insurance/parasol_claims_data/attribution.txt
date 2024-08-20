@@ -1,4 +1,0 @@
-Title of work: Parasol Insurance
-Link to work: https://huggingface.co/rh-rad-ai-roadshow
-License of the work: CC-BY-SA-4.0
-Creator names: Syed M Shaaf, Philip Hayes
