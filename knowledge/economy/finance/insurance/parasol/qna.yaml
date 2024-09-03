@@ -197,7 +197,7 @@ document_outline: |
   The information is related to the Parasol insurance internal records and systems.
 document:
   repo: https://github.com/rh-rad-ai-roadshow/parasol_knowledge.git
-  commit: 544138b
+  commit: 07227df21a3a786d15ae5b88ece2c33bd78ee36a
   patterns:
     - Parasol_auto_insurance.md
     - Insurance_claims_data.md
